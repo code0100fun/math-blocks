@@ -1,0 +1,35 @@
+{
+  "name": "math-blocks",
+  "description": "Web based algebra game.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:code0100fun/math-blocks.git"
+  },
+  "keywords": [], 
+  "author": {
+    "name": "Chase McCarthy",
+    "email": "code0100fun@gmail.com>"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "readme": "",
+  "dependencies": {
+    "raf": "0.0.1",
+    "three": "0.56.0",
+    "aabb-3d": "0.0.0",
+    "interact": "0.0.2",
+    "ever": "*"
+  },
+  "devDependencies": {
+    "tape": "0.2.2",
+    "beefy": "0.0.11",
+    "browserify": "*",
+    "coffeeify": "0.3.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "start": "beefy index.coffee:bundle.js 8080 -- -t coffeeify"
+  }
+}
